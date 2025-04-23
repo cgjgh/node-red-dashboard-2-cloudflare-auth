@@ -4,3 +4,4 @@ node_modules
 .node-red-data/*
 .flows.json.*
 .pnpm-store*
+.qodo

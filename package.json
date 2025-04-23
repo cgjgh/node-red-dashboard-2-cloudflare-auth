@@ -1,13 +1,12 @@
 {
-  "name": "@fullmetal-fred/node-red-dashboard-2-cloudflare-auth",
-  "version": "0.1.7",
+  "name": "@cgjgh/node-red-dashboard-2-cloudflare-auth",
+  "version": "0.1.9",
   "description": "When used with Cloudflare Access authentication, this plugin will pass the email address of an authenticated user into the _client object under _client.user.email",
   "main": "src/index.js",
   "scripts": {
     "predev": "cd .node-red-data && npm install -f ../",
     "dev": "node-red --userDir .node-red-data --settings settings.js"
   },
-  "author": "Frederick Loucks (https://github.com/fullmetal-fred)",
   "node-red": {
     "version": ">=3.1",
     "plugins": {
@@ -36,10 +35,14 @@
   "license": "AGPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fullmetal-fred/node-red-dashboard-2-cloudflare-auth.git"
+    "url": "git+https://github.com/cgjgh/node-red-dashboard-2-cloudflare-auth.git"
   },
   "bugs": {
-    "url": "https://github.com/fullmetal-fred/node-red-dashboard-2-cloudflare-auth/issues"
+    "url": "https://github.com/cgjgh/node-red-dashboard-2-cloudflare-auth/issues"
   },
-  "homepage": "https://github.com/fullmetal-fred/node-red-dashboard-2-cloudflare-auth#readme"
+  "homepage": "https://github.com/cgjgh/node-red-dashboard-2-cloudflare-auth#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+
 }

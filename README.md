@@ -15,7 +15,7 @@ Pre-requisites:
 Steps:
 1. Install @flowfuse/node-red-dashboard 
 
-2. Install `@fullmetal-fred/node-red-dashboard-2-cloudflare-auth` via npm or flows.nodered.org
+2. Install `@cgjgh/node-red-dashboard-2-cloudflare-auth` via npm or flows.nodered.org
 
 3. Create a Dashboard element and wire it up to a debug node set to display the whole msg object (not just payload)
 

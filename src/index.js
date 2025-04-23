@@ -29,10 +29,9 @@ module.exports = function (RED) {
             )}`
           );
         } else {
-          console.log(
-            `${plugin_name}: Dashboard interacted with by ${user_email}`
-          );
+
         }
+       
         user.userId = user_email;
         user.email = user_email;
         user.host = headers["host"] || null;
